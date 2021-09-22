@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="UTF-8">
+
+        <title> Proiect Multimedia </title>
+        <h1>Proiect</h1>
+        <h5>Ioanovici Pojogeanu Andreea Gabriela</h5>
+   <link  rel="stylesheet" href="2_1083_Ioanovici-Pojogeanu_Andreea-Gabriela.css">    
+   <link  rel="stylesheet" href="2_1083_Ioanovici-Pojogeanu_Andreea-Gabriela2.css">   
+</head>
+    <body bgcolor="pink">
+
+
+  <div class="player">
+
+ <!-- delinirea videoclipulii -->
+ <video
+    id="video2"
+
+    src=""
+    controls
+   width="500" 
+   type="video"
+   alt="videoul nu merge" >
+   </video> 
+
+<!-- butoanele pentru player -->
+
+    <button class="play" id='play' title="start" onclick='Playy();' >
+ <input type="image" src="eab5fb1c-82f9-4f59-b3f0-b79f76b369e3.jpg"height="30" weight="30" >
+</button>
+
+
+ <button class="pause" id='pause' title='pauze' onclick='Pausee();'>
+ <input type="image" src="96938b03-5f2d-4668-bcbb-a950b4eb3853.jpg" height="30" weight="30">
+</button>
+
+
+
+<button class="next" id='next'  title='inainte' onclick='next();'>
+<input  type="image" src="4024430.png" height="30" weight="30">
+
+</button>
+<button class="prev" id='prev' title='inapoi' onclick='prev();'>
+<input  type="image" src="4182387.png" height="30" weight="30">
+</button>
+
+<button class="stop" id='stop' title="stop" onclick='stop();'>
+  <input  type="image" src="14ccfff0-ce57-487b-a706-fe7f35bea2fd.jpg" height="30" weight="30">
+</button>
+
+
+<input
+id="mergi"
+type="range"
+min="0"
+value="0"
+max="1"
+step="0.1"
+/>
+
+
+<button class="unmute" id='unmute' title='unmute' onclick='UnMute();'>
+<input type="image" src="9f19a483-32ce-4d60-bd19-328cdbf716da.jpg" height="30" weight="30">
+</button>
+
+
+<button class="mute" id='mute' title='mut'  onclick='Mute();'>
+<input  type="image" src="3eddad85-dff0-4888-88ab-791126e24a96.jpg" height="30" weight="30">
+</button>
+
+<div class="butoane_dif">
+  <button id='del1' class="del1" onclick='del1();'>
+    Stege primul element
+  </button>
+
+  <button id='modifOrd'  class="modifOrd" onclick='modifOrd();'>
+    Schimba ordinea elementelor
+  </button>
+</div>
+
+  </div>
+</div>
+
+
+    <script src="2_1083_Ioanovici-Pojogeanu_Andreea-Gabriela.js"></script>
+</body> 
+</html>

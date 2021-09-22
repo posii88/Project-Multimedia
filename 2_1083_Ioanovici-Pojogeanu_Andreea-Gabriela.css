@@ -1,0 +1,106 @@
+.media-controls{
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.play{
+    position: absolute;
+    margin-top: 60px;
+    left: 3%;
+    top: 43%;
+    transform: translate(-50%, -50%); 
+    background-color: transparent;
+  }
+
+.pause{
+    position: absolute;
+    margin-top: 60px;
+    left: 6%;
+    top: 43%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+
+.next{
+    position: absolute;
+    margin-top: 60px;
+    left: 9%;
+    top:43%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+
+.prev{
+    position: absolute;
+    margin-top: 60px;
+    left: 12%;
+    top: 43%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+
+
+.stop{
+    position: absolute;
+    margin-top: 60px;
+    left: 15%;
+    top: 43%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+
+
+
+.prev-button{
+    width: 15px;
+    position: absolute;
+    margin-top: 100px;
+    left: 5%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+
+.mute{
+    position: absolute;
+    margin-top: 60px;
+    left: 27%;
+    top: 43%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+
+
+.unmute{
+    position: absolute;
+    margin-top: 60px;
+    left: 30%;
+    top: 43%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+
+.next-button{
+    width: 15px;
+    position: absolute;
+    margin-top: 100px;
+    left: 5%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+
+#video2{
+height: 250;
+width: 500;
+}
+
+#mergi{
+    position: absolute;
+    margin-top:60px;
+    left: 21%;
+    top: 43%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: pink;
+}
+
